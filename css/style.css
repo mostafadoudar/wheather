@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#navSection .logoText a {
+  font-size: 1.2rem;
+}
+#navSection .logoText a .logo-p {
+  font-size: 0.8rem;
+}
+
+.navbar {
+  background-color: #262936 !important;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 3.125rem;
+  padding-block: 0.125rem !important;
+  padding-inline: 1.5625rem !important;
+  transition: all 0.4s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #009ad8;
+  border-color: #009ad8;
+}
+
+.navbar-nav .nav-link.active {
+  padding-block: 0.125rem;
+  padding-inline: 1.5625rem;
+  color: #009ad8;
+  border-color: #009ad8;
+}
+
+
+.generalDiv {
+  background-image: url(../images/banner.png);
+  padding-block: 4rem;
+  background-position: center;
+  background-size: cover;
+  min-height: 350px;
+}
+
+#search {
+  background-color: #1e202b;
+  border: none;
+  font-size: 0.9375rem;
+  padding-inline: 1.25rem;
+  padding-block: 0.9375rem;
+  border-radius: 100vh;
+}
+
+#search:focus {
+  box-shadow: none;
+  border: none;
+}
+
+#search::placeholder {
+  color: #5a5a5a;
+  font-size: 0.875rem;
+}
+
+.form-search-button {
+  margin: 0.4688rem;
+  top: 0;
+  right: 0;
+  position: absolute;
+  color: white;
+  font-size: 0.875rem;
+  background-color: #009ad8;
+}
+
+.form-search-button:hover {
+  background-color: #009ad8;
+  color: white;
+}
+
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+  background-color: #009ad8;
+  color: white;
+  border: #009ad8;
+}
+
+.head {
+  background-color: #1e202b;
+}
+
+.days {
+  background-color: #323544 !important;
+}
+
+.section {
+  margin-top: 200px;
+}
+
+.section .container .row .col-md-4 .card {
+  background-color: #323544;
+}
+.section .container .row .col-md-4 .card .card-header {
+  background-color: #2d303d;
+}
+.section .container .row .col-md-4 .card .icon {
+  display: flex;
+  justify-content: space-between;
+}
+.section .container .row .col-md-4 .card .icon span {
+  margin: 10px;
+}
+
+#search {
+  background-color: #1e202b;
+  border: none;
+  font-size: 0.9375rem;
+  padding-inline: 1.25rem;
+  padding-block: 0.9375rem;
+  border-radius: 100vh;
+}
+
+#search:focus {
+  box-shadow: none;
+  border: none;
+}
+
+#search::placeholder {
+  color: #5a5a5a;
+  font-size: 0.875rem;
+}
+
+.form-search-button {
+  margin: 0.4688rem;
+  top: 0;
+  right: 0;
+  position: absolute;
+  color: white;
+  font-size: 0.875rem;
+  background-color: #009ad8;
+}
+
+.form-search-button:hover {
+  background-color: #009ad8;
+  color: white;
+}
+
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+  background-color: #009ad8;
+  color: white;
+  border: #009ad8;
+}
+
+footer {
+  background-color: #262936 !important;
+}
+
+.social-links i {
+  font-size: 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 42px;
+  height: 42px;
+  background-color: #1e202b;
+  color: #009ad8;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-links i:hover {
+  color: white;
+  background-color: #009ad8;
+}
+
+footer p {
+  color: #c2c2c2;
+  margin-block: 1.5rem;
+}

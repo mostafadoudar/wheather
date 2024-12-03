@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" , initial-scale="1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark text-center py-5"
+      id="navSection"
+    >
+      <div class="container">
+        <img src="images/logo@2x.png" alt="wheather logo" class="me-3" />
+        <div class="logoText">
+          <a class="navbar-brand m-0" href="index.html"
+            >Wheather
+            <p class="logo-p m-0 fw-light">tagline goes here</p>
+          </a>
+        </div>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-2 mt-lg-0 mt-4">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Live Cameras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Photo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="generalDiv">
+
+      <section class="input-from">
+        <div class="container py-5">
+          <div class="searchContainer position-relative">
+            <input
+              type="text"
+              id="search"
+              class="form-control text-white rounded-pill"
+              placeholder="Find your location...."
+            />
+            <button
+              id="findMe"
+              class="form-search-button btn rounded-pill px-4 py-2"
+            >
+              Find Me
+            </button>
+          </div>
+        </div>
+      </section>
+     
+
+    
+      <div class="container">
+        <div class="row" id="myrow"></div>
+      </div>
+      
+    </div>
+
+    <footer class="">
+      <div class="container py-5">
+        <div class="footerConten row mb-4">
+          <div class="searchSection position-relative col-md-8 g-0">
+            <input
+              type="text"
+              id="search"
+              class="form-control text-white"
+              placeholder="Enter Email To Subscribe...."
+            />
+            <button class="form-search-button btn rounded-pill px-4 py-2">
+              Subscribe
+            </button>
+          </div>
+          <div class="social-links col-md-4 text-md-end mt-md-0 mt-3">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-google-plus"></i>
+            <i class="fa-brands fa-pinterest-p"></i>
+          </div>
+        </div>
+        <p>
+          Copyright 2014 Company name. Designed by Themezy. All rights reserved
+        </p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
